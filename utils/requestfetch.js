@@ -1,5 +1,5 @@
 const axios = require('axios')
-const url = 'http://localhost:3000/fetch'
+const url = process.env.HOSTNAME+'/fetch'
 
 let requestFetch = {}
 
