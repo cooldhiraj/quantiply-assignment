@@ -1,6 +1,6 @@
 # APOD
 
-APOD is a website that show astronamical picture of the day.
+APOD is a website that show astronomical picture of the day.
 
 Follows best production practice, build with consideration microservices in mind.
 
