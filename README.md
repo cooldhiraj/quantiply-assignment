@@ -12,9 +12,9 @@ Use the node package manager [npm] to install APOD.
 npm install
 ```
 
-## Usage
+## Environmental Variables
 
-```SET Environments Variables
+```
 API_KEY = YOUR KEY
 API_URL = https://api.nasa.gov/planetary/apod?api_key=
 DB_USERNAME = MONGODB USERNAME
