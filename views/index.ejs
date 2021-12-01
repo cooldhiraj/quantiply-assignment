@@ -23,9 +23,6 @@ alink="#FF0000">
     <input type="submit">
 </form>
 <p>
-<% const month = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12] %>
-<%= new Date(parseInt(data.date)).getFullYear() + '-' +month[(new Date(parseInt(data.date)).getMonth())] +'-'+ new Date(parseInt(data.date)).getDate() %>
-
 <br> 
 <% if(data.media_type == 'image'){ %>
     <a href="<%= data.hdurl %>">
