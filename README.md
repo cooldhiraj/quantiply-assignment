@@ -16,7 +16,7 @@ npm install
 
 ```SET Environments Variables
 API_KEY = YOUR KEY
-API_URL 
+API_URL = https://api.nasa.gov/planetary/apod?api_key=
 DB_USERNAME = MONGODB USERNAME
 DB_PASSWORD = MONGODB PASSWORD
 HOSTNAME = http://localhost:3000 or any
