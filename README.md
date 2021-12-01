@@ -2,7 +2,7 @@
 
 APOD is a website that show astronomical picture of the day.
 
-Follows best production practice, build with consideration microservices in mind.
+Follows best production practice, build with consideration *microservices* in mind.
 
 ## Installation
 
@@ -27,6 +27,9 @@ DB_USERNAME = YOUR MONGODB USERNAME
 DB_PASSWORD = YOUR MONGODB PASSWORD
 HOSTNAME = http://localhost:3000 or any
 ```
+*API_URL IS SAME AS MENTION ABOVE*
+
+
 ## FEATURE
 Request logs -> logs/requestlogger.log
 
