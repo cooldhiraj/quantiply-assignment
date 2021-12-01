@@ -12,6 +12,12 @@ Use the node package manager [npm] to install APOD.
 npm install
 ```
 
+## Database configuration
+
+Go to database/db.js
+
+Here you should paste you connection string
+
 ## Environmental Variables
 
 ```
@@ -33,3 +39,11 @@ Easy to maintain
 Server Side Rendering
 
 Download images using streams
+
+Important
+
+To acheive full use of servers you can enable all process by installing pm2 as  global package and after installing hit below command
+
+```
+pm2 start app.js -i max
+```
