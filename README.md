@@ -48,7 +48,9 @@ Download images using streams
 
 To acheive full utilization of cpu you can enable all process by installing pm2 as  global package and after installing hit below command
 
-*Redis cache has not integrated because mongodb automatically fetch data from RAM for this use case*
+
 ```
 pm2 start app.js -i max
 ```
+
+*Redis cache has not integrated because mongodb automatically fetch data from RAM for this use case*
