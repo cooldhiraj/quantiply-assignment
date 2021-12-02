@@ -4,6 +4,7 @@ APOD is a website that show astronomical picture of the day.
 
 Follows best production practice, build with consideration *microservices* in mind.
 
+Live Demo - https://quantiply.herokuapp.com
 ## Installation
 
 Use the node package manager [npm] to install APOD.
